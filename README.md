@@ -19,14 +19,13 @@ BlendshapeCalculator from MeFaMo to compute Action Units (AUs) based on normaliz
 
 OpenCV to overlay facial wireframe and display AU intensity values live on webcam.
 
- ---------------------------------------------------------------------- 
- Action Unit      ,Description                ,Blendshape detected              
--------------------------------------------------------------------------
-  AU1            | ,Brow raise                  |, BrowInnerUp
-  Au4            | ,Frown                       |,BrowDownLeft,BrowDownRight
-  Au6            | ,cheekpuff                   |,cheekSquintLeft/Right
-  Au12           | ,Smile                       |,MouthSmileleft/right
-  Au17           | ,Jaw Clench                  |,jaw open
+| Action Unit | Description     | Blendshape Detected                  |
+|-------------|------------------|--------------------------------------|
+| AU1         | Brow Raise       | BrowInnerUp                          |
+| AU4         | Frown            | BrowDownLeft, BrowDownRight          |
+| AU6         | Cheek Puff       | CheekSquintLeft, CheekSquintRight    |
+| AU12        | Smile            | MouthSmileLeft, MouthSmileRight      |
+| AU17        | Jaw Clench       | JawOpen (inverted)                   |
 
 
  ## Key Functions and Classes Used
