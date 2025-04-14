@@ -13,7 +13,7 @@ In my solution i used :
 
 MediaPipe FaceMesh for real-time 3D face landmark detection.
 
-...MeFaMo (MediaPipe Face Mocap) for calculating blendshapes & Converts 2D landmarks to metric 3D landmarks using PCF.
+MeFaMo (MediaPipe Face Mocap) for calculating blendshapes & Converts 2D landmarks to metric 3D landmarks using PCF.
 
 BlendshapeCalculator from MeFaMo to compute Action Units (AUs) based on normalized and metric 3D landmarks.
 
