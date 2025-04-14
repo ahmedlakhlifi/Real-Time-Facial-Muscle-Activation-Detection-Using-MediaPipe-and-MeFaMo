@@ -30,12 +30,12 @@ OpenCV to overlay facial wireframe and display AU intensity values live on webca
 
 
  ## Key Functions and Classes Used
- -------------------------------------------------------------------------------
- Function / Class                       |        Purpose 
- -------------------------------------------------------------------------------
- mp.solutions.face_mesh.FaceMesh        |         Detect facial landmarks
- get_metric_landmarks()                 |         Convert normalized landmarks to 3D
- PCF()                                  |         Defines camera parameters for 3D geometry
- BlendshapeCalculator.calculate_blendshapes() |   Computes AU activations
- live_link_face.get_blendshape()        |         Retrieves smooth AU values
- cv2.putText()                          |         Displays each AU and intensity
+| Function / Class                          | Purpose                                |
+|-------------------------------------------|----------------------------------------|
+| `mp.solutions.face_mesh.FaceMesh`         | Detect facial landmarks                |
+| `get_metric_landmarks()`                  | Convert normalized landmarks to 3D     |
+| `PCF()`                                   | Defines camera parameters for 3D geometry |
+| `BlendshapeCalculator.calculate_blendshapes()` | Computes AU activations         |
+| `live_link_face.get_blendshape()`         | Retrieves smooth AU values             |
+| `cv2.putText()`                           | Displays each AU and intensity         |
+
