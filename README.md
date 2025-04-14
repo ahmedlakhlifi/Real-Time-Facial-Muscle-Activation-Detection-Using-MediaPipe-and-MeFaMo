@@ -29,7 +29,7 @@ OpenCV to overlay facial wireframe and display AU intensity values live on webca
   Au17           | ,Jaw Clench                  |,jaw open
 
 
-                          Key Functions and Classes Used----------------------------
+ ## Key Functions and Classes Used
  -------------------------------------------------------------------------------
  Function / Class                       |        Purpose 
  -------------------------------------------------------------------------------
