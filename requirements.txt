@@ -1,0 +1,4 @@
+opencv-python
+mediapipe
+numpy
+git+https://github.com/JimWest/MeFaMo.git 
