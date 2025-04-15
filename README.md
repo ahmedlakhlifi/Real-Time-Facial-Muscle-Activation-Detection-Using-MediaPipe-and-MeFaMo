@@ -17,7 +17,7 @@ Calibration allows the system to:
 
 ## Approach
 
-In my solution i used :
+In my solution I used :
 
 MediaPipe FaceMesh for real-time 3D face landmark detection.
 
@@ -51,10 +51,10 @@ OpenCV to overlay facial wireframe and display AU intensity values live on webca
 
 ###  Before Calibration
 This shows AU values responding even at rest (no baseline subtraction).
-https://drive.google.com/file/d/1VYnt-JPNPpDoVEKYLit7D_Y4-sMb-10g/view?usp=sharing
+ [Watch Before Calibration](https://drive.google.com/file/d/1VYnt-JPNPpDoVEKYLit7D_Y4-sMb-10g/view?usp=sharing)
 
 ### After Calibration
 This shows the effect of neutral face calibration. AU values increase only with intentional expressions.
-https://drive.google.com/file/d/1YGC1cKLqvfTTuke4WHIwDOLQh6lUy84g/view?usp=sharing
+[Watch After Calibration](https://drive.google.com/file/d/1YGC1cKLqvfTTuke4WHIwDOLQh6lUy84g/view?usp=sharing)
 
 
