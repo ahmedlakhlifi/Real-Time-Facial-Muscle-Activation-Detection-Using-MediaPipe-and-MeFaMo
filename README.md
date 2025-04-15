@@ -1,11 +1,19 @@
 # Real-Time-Facial-Muscle-Activation-Detection-Using-MediaPipe-and-MeFaMo
 ## Objective
 
-This project extends the mediapipe_mouth_open_close.py script to detect real-time facial muscle activations (action units) using 3D face mesh data from MediaPipe and the MeFaMo library.
-
+This project uses **MediaPipe**, **MeFaMo**, and **PyLiveLinkFace** to detect facial Action Units (AUs) in real time using your webcam.  
+It includes a **manual calibration feature** to personalize detection based on your unique facial structure.
 ## Background
 
 The original script detected only mouth status (open/closed) and smiling using 2D facial landmarks. This updated implementation uses 3D facial landmarks and blendshape estimation to extract and visualize multiple facial muscle activations.
+# Why calibrate?
+
+Facial structures and resting expressions differ from person to person.  
+Calibration allows the system to:
+
+- Adapt to your **neutral face**
+- Eliminate false positives from slight natural movements (like a resting smile)
+- Improve the accuracy and responsiveness of AUs
 
 ## Approach
 
