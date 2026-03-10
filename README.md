@@ -48,8 +48,5 @@ OpenCV to overlay facial wireframe and display AU intensity values live on webca
 
 
 
-### After Calibration
-This shows the effect of neutral face calibration. AU values increase only with intentional expressions.
-[Watch After Calibration](https://drive.google.com/file/d/1YGC1cKLqvfTTuke4WHIwDOLQh6lUy84g/view?usp=sharing)
 
 
